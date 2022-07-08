@@ -1,0 +1,52 @@
+baseURL: https://thebestwordpress.site
+languageCode: en-us
+title: thebestwordpress.site
+theme: PaperMod
+paginate: 100
+enableRobotsTXT: true
+
+params:
+  defaultTheme: dark
+  ShowCodeCopyButtons: true
+  assets:
+    disableHLJS: true
+  homeInfoParams:
+    Title: The Best Wordpress Site
+    Content: "**Wordpress is extremely popular, free, and deeply flawed.** What are the most serious issues a Wordpress site faces today and how do we make the site run as well as possible without excessive complexity or cost? In this blog I will try to answer that question in a series of frequently edited, poorly organized, and ultimately long-abandoned posts."
+
+  socialIcons: # optional
+    - name: "bitcoin"
+      url: "https://btcpay737660.lndyn.com/payment-requests/b56ac8bb-e25c-4f31-99c4-b47f348f0a17"
+    - name: "soundcloud"
+      url: "https://youtu.be/dQw4w9WgXcQ"
+
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /posts/about
+      weight: 10
+    - identifier: contribute
+      name: contribute
+      url: https://btcpay737660.lndyn.com/payment-requests/b56ac8bb-e25c-4f31-99c4-b47f348f0a17
+      weight: 20
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
+
+#markup:
+#  goldmark:
+#    renderer:
+#      unsafe: true
