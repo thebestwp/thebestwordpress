@@ -65,7 +65,13 @@ This site is a necessary outlet for me to express all of my thoughts on Wordpres
 > *They ask, "Is Wordpress secure?"*  
 > *"Nothing is secure," I cry.*
 
-There will be no contact information listed on this site because the volume of spam would be too high.
-Instead of listing an email address I am thinking of letting people contact me in future with a short message by sending a micro-payment on the bitcoin lightning network.
-Another option would be to have people do some minor computation, (proof-of-work,) before revealing a contact form, which is a different form of micropayment made directly to your power utility.
 
+The opinions expressed on this site reflect my personal experience as the system administrator for several clients running Wordpress on Linux VPS servers.
+There are a million ways to run Wordpress and this just happens to be the best one.
+
+The workflow I will write about prioritizes client-owned accounts and open-source software for maximum portability and maintainability.
+Wherever possible I strive to find the most basic and well-established open source tool for the job, which is why you will see me using Linux, ssh, git, rsync, vim--and avoiding stuff like AWS, Sublime, VSCode, docker etc.. 
+I make an exception for the Cloudflare free tier as the value offered by this middleman is too great to pass up for clients without law enforcement in their threat model.
+
+There will be no contact information listed on this site because the volume of spam would be too high.
+You may however contact me through [github](https://github.com/thebestwp/thebestwordpress), if you know how.

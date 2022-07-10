@@ -5,8 +5,16 @@ date: 2022-07-05
 lastmod: 2022-07-05
 summary: This website is built with Hugo, a very fast static site generator.
 draft: false
+disablehljs: true
 
 ---
+
+Wordpress is a dynamic web site platform which retrieves content from a database and renders HTML in real-time.
+Although most pages can be cached in a rendered state certain functions like the back-end login and search will not receive any performance boost from caching.
+While the front-end performance is greatly improved by caching, back-end functions like content-editing will often be painfully slow due to limited server resources and/or an excessive number of plugins.
+The dynamic nature of Wordpress also presents numerous [security risks](/posts/security) necessitating the frequent [installation of updates](/posts/updates).
+
+
 This website is made of static html and CSS.
 
 thebestwordpress.site has:
@@ -20,6 +28,8 @@ thebestwordpress.site has:
 - No graphics or javascript so far and I would like to keep it that way
 
 There is very little for the server to do and minimal "attack surface" for hackers to target.
+
+### Hugo
 
 [Hugo](https://gohugo.io) is a single executable file which can be downloaded and run without being installed.
 There are no dependencies.
@@ -35,6 +45,15 @@ How I am using Hugo:
 Hugo compiles thebestwordpress.site into (at time of writing) 176KB of html and css files—so fast that it is possible to see changes in realtime as I edit and save them.
 
 The built-in local development server is meant to do this—to run alongside the code editor as a realtime preview.
+
+Feature | Wordpress | Hugo
+--- | :---: | :---:
+Backend | y | n
+WYSIWYG | y | n
+Plugins | y | n 
+Themes | y | y
+Fast | n | y
+CDN Support | n | y
 
 ### Theme
 
