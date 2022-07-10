@@ -3,8 +3,12 @@
 title: "Hugo"
 date: 2022-07-05
 summary: This website is built with Hugo, a very fast static site generator.
-draft: false
+editPost:
+    URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true # to append file path to Edit link
 disablehljs: true
+draft: false
 
 ---
 
