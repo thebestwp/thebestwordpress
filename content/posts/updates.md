@@ -1,11 +1,11 @@
 ---
 title: "Updates"
 date: 2022-07-10T15:41:29Z
-draft: true
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
+draft: false
 ---
 The first thing to consider when updating Wordpress is *what* you are installing.
 

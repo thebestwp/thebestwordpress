@@ -1,11 +1,11 @@
 ---
 title: "Cloudflare"
 date: 2022-07-08T23:39:02Z
-draft: true
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
+draft: false
 ---
 
 A constant stream of unsophisticated attacks are an ever-growing nuisance to every Wordpress site.

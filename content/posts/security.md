@@ -1,11 +1,11 @@
 ---
 title: "Security"
 date: 2022-07-10T15:39:58Z
-draft: true
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
+draft: false
 ---
 
 In order to discuss this topic effectively it is best to use the word "secure" as a verb rather than as an adjective.
