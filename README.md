@@ -1,7 +1,6 @@
 ## thebestwordpress.site
 
 This repository hosts the source code of [thebestwordpress.site](https://thebestwordpress.site/posts/about/).
-Because all the content is in markdown it also [renders rather nicely in github](https://github.com/thebestwp/thebestwordpress/blob/main/content/posts/about.md).
 
 There is a post about [how the site and server are built](https://thebestwordpress.site/posts/hugo/).
 
