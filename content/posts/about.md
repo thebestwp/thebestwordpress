@@ -14,25 +14,28 @@ The Best Wordpress Site is a hypothetical ideal which no actual client will ever
 It's not this website.
 
 This website is *about* The Best Wordpress Site.
-Despite its many, many flaws Wordpress is the most popular platform on the web and one of the last holdouts against the trend of just putting everything on Facebook.
+Despite its many flaws Wordpress is (by far) the most popular platform to build a website on and one of the last holdouts against the trend of just putting everything on Facebook.
+Like it or not, we're stuck with Wordpress.
 
 Creating a Wordpress website is easy, but screwing it up is even easier.
-This website is one system administrator's opinion on how to decide whether Wordpress is the right tool for a job, and how best to protect Wordpress from the hostile environment of cyberspace.
+This website is one professional's opinion on how to decide whether Wordpress is the right tool for a job, and how best to protect Wordpress in the hostile environment of cyberspace.
  
 ## About Wordpress…
 > *"thebestwordpress.site is not a Wordpress site."*
 
-At first I built thebestwordpress.site using Wordpress on a VPS origin server behind Cloudflare, as a demonstration of what I think is the best way to serve most Wordpress sites.
+At first I built thebestwordpress.site using Wordpress on a VPS origin server behind Cloudflare as a demonstration of what I think is the best way to serve most Wordpress sites.
 It was about 24 hours before I realized that Wordpress was the wrong choice for this project because of *me.*
 
 I am drafting a post about who Wordpress is best suited for but the shortlist is basically this:
 
-1.  People who aren't software professionals.
+1.  People who aren't software developers.
 
 Wordpress has a million things that I don't need, it requires constant maintenance and is easily overwhelmed by even the most basic attack.
 Even the most stripped-down basic Wordpress install is many orders-of-magnitude larger and more complex than a basic blog needs to be.
 
 I decided that it's more difficult to do Wordpress right than it is to make an equivalent blog using any other means.
+Actually building The Best Wordpress Site negates the benefit of using Wordpress.
+Basically, if you're buiding a Wordpress site then you must accept that you're not trying to build the best anything.
 
 ### Cookies are for monsters
 > *"thebestwordpress.site has no cookies."*
@@ -55,12 +58,12 @@ I have written more about [how thebestwordpress.site is built.](/posts/hugo)
 
 ## About me
 I have been working in software for about 24 years now, and I have worn many different hats.
-For the past 7 years or so I have been (among other things) the system administrator for a rotating queue of a few dozen wordpress sites, most small, some medium sized.
+For the past 7 years or so I have been (among other things) the system administrator for a rotating queue of a few dozen Wordpress sites, most small, some medium sized.
 
 This site is a necessary outlet for me to express all of my thoughts on Wordpress that no client ever wants to hear.
 
 > *They ask, "Is Wordpress secure?"*  
-> *"Nothing is secure," I weep.*
+> *"Nothing is secure," I cry.*
 
 There will be no contact information listed on this site because the volume of spam would be too high.
 Instead of listing an email address I am thinking of letting people contact me in future with a short message by sending a micro-payment on the bitcoin lightning network.
