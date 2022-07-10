@@ -2,7 +2,6 @@
 
 title: "Hugo"
 date: 2022-07-05
-lastmod: 2022-07-05
 summary: This website is built with Hugo, a very fast static site generator.
 draft: false
 disablehljs: true

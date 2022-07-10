@@ -1,8 +1,6 @@
 ---
 title: "Maintenance"
 date: 2022-06-29
-lastmod: 2022-07-03
-ShowToc: true
 summary: "What is Wordpress maintenance, exactly?"
 draft: false
 

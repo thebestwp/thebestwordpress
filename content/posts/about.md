@@ -2,7 +2,6 @@
 
 title: "About"
 date: 2022-06-22
-lastmod: 2022-07-05
 summary: It was about 24 hours before I realized that Wordpress was the wrong choice for this project...
 draft: false
 
