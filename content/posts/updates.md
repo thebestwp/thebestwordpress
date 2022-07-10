@@ -40,7 +40,7 @@ The best ways to install open source software updates ranked by difficulty:
 1. Unattended automatic updates.
 
 Some [good advice](https://docs.fedoraproject.org/en-US/quick-docs/autoupdates/) from the Fedora project:
-> If the machine is a critical server, for which unplanned downtime of a service on the machine can not be tolerated, then you should not use automatic updates. Otherwise, you may choose to use them
+> "If the machine is a critical server, for which unplanned downtime of a service on the machine can not be tolerated, then you should not use automatic updates. Otherwise, you may choose to use them."
 
 **Automatic updates will eventually cause issues with your website.**
 

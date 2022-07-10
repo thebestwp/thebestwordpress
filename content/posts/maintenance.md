@@ -7,15 +7,17 @@ summary: "What is Wordpress maintenance, exactly?"
 draft: false
 
 ---
-The Best Wordpress Site is comprised primarily of thousands of lines of code written by volunteers whose existence we gleefully ignore.
+Every Wordpress site is comprised primarily of thousands of lines of code written by talented hard-working volunteers whose existence we gleefully ignore.
 All software has bugs and vulnerabilities which are exposed over time, more quickly when it is popular software.
-We rely therefore on the benevolence of our humble open-source software developers to rapidly provide security updates to us, for free, for all eternity.
+We rely therefore on the benevolence of our humble open-source software developers to rapidly provide [security](/posts/security) updates to us, for free, for all eternity.
 
-***Our burden is that we must install these updates.***
+> ***Our burden is that we must install the updates.***
 
-Maintenance is not about adding features.
+Maintenance is about more than just [installing updates](/posts/updates).
+In order to properly maintain any software you need some skill, and that skill is generally hired.
+This post is about how an agency can handle the maintenance of Wordpress sites running on VPS as opposed to the common approach of using managed, shared servers.
 
-In order to better understand what is meant by "Wordpress maintenance" I have defined five tiers representing common approaches.
+In order to better understand what is meant by "Wordpress maintenance" I have defined five tiers representing common situations.
 
 Definitions and Assumptions:
 - All websites are web applications and all web applications are websites
@@ -23,7 +25,8 @@ Definitions and Assumptions:
 - "Dependencies" includes the whole stack (excluding physical infrastructure): operating systems, software libraries, plugins, etc.
 
 
-### Tier 0 "Drive it into the ground"
+### Tier Zero
+> *"Drive it into the ground"*
 
 The client has opted out of maintenance entirely.
 As time passes without updates performance degrades, bugs appear, and security vulnerabilities are targeted with increasing frequency.
@@ -33,11 +36,12 @@ Applications should be repaired and their maintenance tier elevated before any f
 When a client stops paying for even basic maintenance:
 - remove agency emails and accounts from site
 - disable and delete off-site backups
-- archive the gitlab project (if in the agency account)
+- archive the git repo (if in the agency account)
 - delete the site from the deployment pipeline
 
 
-### Tier 1 "Keep it running"
+### Tier One
+> *"Keep it running"*
 
 This tier is about keeping the software running and secure without any changes to the code beyond those required to update dependencies.
 The application will possibly degrade over time if new data is being added.
@@ -55,7 +59,8 @@ If the site has not been well-maintained in the past there may be added up-front
 - Monitoring for site uptime
 
 
-### Tier 2 "Keep it running well"
+### Tier Two 
+> *"Keep it running well"*
 
 Most sites being actively used will reveal (non-security) bugs over time.
 Clients opting for T1 might be happy finding workarounds but in T2 bugs are fixed with quick turnaround. 
@@ -71,7 +76,8 @@ This is the minimum recommended tier to keep applications from degrading.
 - Emergency response (on-call 9-5 M-F)
 
 
-### Tier 3 "We rely on this software"
+### Tier Three 
+> *"We rely on this software"*
 
 Some applications are mission-critical to a business and downtime equals lost revenue.
 They may also contain sensitive or financial data.
@@ -86,7 +92,8 @@ This is a premium plan with 24h emergency tech support.
 - Emergency response (on-call  24/7)
 
 
-### Tier 4 "Our application needs to scale"
+### Tier Four 
+> *"Our application needs to scale"*
 
 When rapid user growth is anticipated then servers are generally compartmentalized and load balancing put in place.
 T4 is also for clients who face the threat of attack by a sophisticated adversary. 

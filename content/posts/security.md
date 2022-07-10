@@ -10,8 +10,8 @@ editPost:
 
 In order to discuss this topic effectively it is best to use the word "secure" as a verb rather than as an adjective.
 
-There is no such thing as a *secure website.*
-Every website needs to *be secured* from plausible threats without over-spending on security.
+There is no such thing as a *secure website* on the internet.
+Every website needs to *be secured* from plausible threats **without over-spending** on security.
 The degree to which each website should be secured must be individually assessed.
 
 > All software has vulnerabilities.
@@ -22,6 +22,7 @@ Knowing that all software is vulnerable to hacking, and adding the fact that the
 Anyone who tells you that anything on the internet is secure is either lying or incompetent. 
 
 So, if we're not trying to secure a website by installing security patches then what are we doing?
+
 **We are trying to achieve a reasonable level of security within our means.**
 
 
@@ -77,7 +78,7 @@ Wordpress is therefore only as secure as the trust you place in these unknown so
 
 Key to understanding the value proposition of Wordpress is considering how important security really is to your website.
 
-## Common Types of Attacks and Simple Solutions
+## Common Threats and Simple Solutions
 
 ### DoS
 Denial of service (DoS) occurs when your server has been asked to do more work than it is capable of.
@@ -109,6 +110,6 @@ These attacks can however cause DoS by overwhelming the server as it tries to pr
 
 #### Solutions
 - Use strong passwords.
-- A CloudFlare "page rule" may be used to elevate the security level on the WP login page to "I'm Under Attack" which will help to deflect much of the traffic before it can hit your site.
+- A Cloudflare "page rule" may be used to elevate the security level on the WP login page to "I'm Under Attack" which will help to deflect much of the traffic before it can hit your site.
 - Cloudflare's "Bot Fight Mode" will also force known botnet traffic to do a bunch of CPU intensive work to view your website, (spoiling the milk) making you a less attractive target.
 

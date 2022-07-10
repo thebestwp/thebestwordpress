@@ -16,7 +16,7 @@ A constant stream of unsophisticated attacks are an ever-growing nuisance to eve
 
 The threat from these petty attacks to a regularly updated Wordpress site is negligible but the sheer bulk of the bad traffic causes an uncomfortable load on web servers, sometimes resulting in an unintentional Denial-of-Service.
 
-CloudFlare has emerged as the clear winner in the category of free solutions to sanitize traffic before it hits a web server. 
+Cloudflare has emerged as the clear winner in the category of free solutions to sanitize traffic before it hits a web server. 
 
 ## Free Cloudflare Features
 
@@ -29,7 +29,7 @@ Statistics from some real production sites over a 24h period:
 - Site C: 3.18 GB saved / 3.36 GB total bandwidth (95%)
 
 While bandwidth itself is not a scarce resource for small sites, this reduction in traffic means that each origin server is going to have a lot less work to do.
-CloudFlare reduces traffic to the origin server.
+Cloudflare reduces traffic to the origin server.
 
 ### Web Application Firewall
 The WAF provides protection from known threat IPs.

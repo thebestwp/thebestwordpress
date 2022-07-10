@@ -23,7 +23,7 @@ This website is one professional's opinion on how to decide whether Wordpress is
 ## About Wordpress…
 > *"thebestwordpress.site is not a Wordpress site."*
 
-At first I built thebestwordpress.site using Wordpress on a VPS origin server behind Cloudflare as a demonstration of what I think is the best way to serve most Wordpress sites.
+At first I built thebestwordpress.site using Wordpress on a VPS origin server behind [Cloudflare](/posts/cloudflare) as a demonstration of what I think is the best way to serve most Wordpress sites.
 It was about 24 hours before I realized that Wordpress was the wrong choice for this project because of *me.*
 
 I am drafting a post about who Wordpress is best suited for but the shortlist is basically this:
