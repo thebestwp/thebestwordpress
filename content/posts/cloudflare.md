@@ -5,6 +5,7 @@ editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
+summary: A constant stream of unsophisticated attacks are an ever-growing nuisance to every Wordpress site.
 draft: false
 ---
 
@@ -46,9 +47,9 @@ Although this is a minor inconvenience for a real person, botnets that are targe
 
 ### Security Level
 For situations where a focused DDoS attack is targeting a client site, the Security Level for the whole domain may be elevated to "I'm Under Attack" with the flip of a single switch on the dashboard.
-This setting will raise the bar 
+This setting will raise thwart most DDoS attacks with the catch that a lot of real users will also have to complete the CAPTCHA.
 
-Although a CAPTCHA could be deployed on the VPS at DigitalOcean the load would still fall squarely on the VPS and an DDoS would overwhelm it.
+Although a CAPTCHA could be deployed on the VPS the DDoS would still overwhelm it.
 When using  the cheaper VPS plans < $20/mo. a third party is the only option to defend against DDoS and Cloudflare is the best value in this category.
 
 ### Page Rules

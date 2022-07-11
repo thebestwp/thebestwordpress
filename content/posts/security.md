@@ -5,6 +5,7 @@ editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
+summary: There is no such thing as a *secure website* on the internet.
 draft: false
 ---
 

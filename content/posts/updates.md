@@ -5,6 +5,7 @@ editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
+summary: Installing updates automatically is better than not installing updates at all but lazy and reckless compared to every alternative approach.
 draft: false
 ---
 The first thing to consider when updating Wordpress is *what* you are installing.
