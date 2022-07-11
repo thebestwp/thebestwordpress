@@ -14,7 +14,7 @@ params:
     disableHLJS: true
   homeInfoParams:
     Title: The Best Wordpress Site
-    Content: "**Wordpress is extremely popular, free, and deeply flawed.** What are the most serious issues a Wordpress site faces today and how do we make the site run as well as possible without excessive complexity or cost? In this blog I will try to answer that question in a series of frequently edited, poorly organized, and ultimately long-abandoned posts."
+    Content: "**Wordpress is extremely popular and deeply flawed.** What are the most serious issues a Wordpress site faces today and how do we make the site run as well as possible without excessive complexity or cost? In this blog I will try to answer that question in a series of frequently edited, poorly organized, and ultimately long-abandoned posts."
 
   socialIcons: # optional
     - name: "bitcoin"
