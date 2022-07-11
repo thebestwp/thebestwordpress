@@ -11,13 +11,17 @@ draft: false
 
 ---
 
-Wordpress is a dynamic web site platform which retrieves content from a database and renders HTML in real-time.
-Although most pages can be cached in a rendered state certain functions like the back-end login and search will not receive any performance boost from caching.
-While the front-end performance is greatly improved by caching, back-end functions like content-editing will often be painfully slow due to limited server resources and/or an excessive number of plugins.
-The dynamic nature of Wordpress also presents numerous [security risks](/posts/security) necessitating the frequent [installation of updates](/posts/updates).
+Wordpress is a dynamic web site platform which retrieves content from a database and renders HTML in real-time (well, about 2 seconds actually).
+For this blog I wanted somewhere to write, with a dark/light theme switch that would be low maintenance and which could handle a substantial amount of traffic.
+The heavy nature of a dynamic, database-driven web platform was a bad fit for me because I wanted to keep things simple and cheap, I prefer to write in markdown, and I want to minimize maintenance.
 
-The performance issues of Wordpress are exactly why I prefer VPS over shared hosting providers.
-Shared hosting usually comes with some kind of impressive caching layer but clients who actually login and change content regularly are likely to experience some serious lag. 
+I have in the distant past written a lot of HTML and CSS by hand but things have changed in 20 years.
+There are a million ways to make a website today but they all ultimately produce HTML and CSS that renders in your web browser.
+It has become more, not less difficult to make a basic web site in my lifetime, not least of all because of the wide range of display sizes and resolutions that smartphones introduced.
+
+> We used to make everything for a 800x600 screen and people just had to deal with it.
+
+Fortunately someone has made a tool which does exactly what I want.
 
 ### Hugo
 [Hugo](https://gohugo.io) is a static site generator which compiles html from markdown files and css from a theme.
@@ -41,7 +45,8 @@ thebestwordpress.site has:
 
 There is very little for the server to do and minimal "attack surface" for hackers to target.
 I am not saying that Hugo is better than Wordpress as they are very different things.
-I am saying that Hugo is the best choice for *me* as the writer of *this* blog.
+
+> Hugo is the best choice for **me** as the writer of **this** blog.
 
 How I am using Hugo:
 
@@ -57,12 +62,13 @@ The built-in local development server is meant to do this—to run alongside the
 
 Feature | Wordpress | Hugo
 --- | :---: | :---:
-Backend | y | n
-WYSIWYG | y | n
-Plugins | y | n 
-Themes | y | y
-Fast | n | y
-CDN Support | n | y
+Backend | **Y** | n
+WYSIWYG | **Y** | n
+Plugins | **Y** | n 
+Themes | **Y** | **Y**
+Markdown | n | **Y**
+Fast | n | **Y**
+CDN Support | n | **Y**
 
 ### Theme
 
@@ -85,8 +91,8 @@ This site is currently hosted at [LunaNode](https://lunanode.com) on a tiny VPS 
 Without any sort of WAF or DDoS protection there is a good chance that I will receive a deluge of bot traffic.
 We'll see then how many bots it takes to overwhelm a purely static site.
 
-What follows is almost everything I did to configure the server.
-It's so nice to keep things this simple.
+What follows is almost everything I did to configure the server.  
+**It's so nice to keep things this simple.**
 
 Provision a Fedora 35 server (standard Lunanode template).
 The default template comes with SELinux configured.
