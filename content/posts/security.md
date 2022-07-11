@@ -6,6 +6,7 @@ editPost:
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
 summary: There is no such thing as a *secure website* on the internet.
+showtoc: true
 draft: false
 ---
 

@@ -6,6 +6,7 @@ editPost:
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
 summary: A constant stream of unsophisticated attacks are an ever-growing nuisance to every Wordpress site.
+showtoc: true
 draft: false
 ---
 
