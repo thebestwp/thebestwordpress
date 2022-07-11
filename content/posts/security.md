@@ -21,7 +21,7 @@ The constant slew of updates released are patches against *known* vulnerabilitie
 Knowing that all software is vulnerable to hacking, and adding the fact that the internet is an extremely hostile environment, there is only one answer to the question of whether your website is secure: no.
 Anyone who tells you that anything on the internet is secure is either lying or incompetent. 
 
-So, if we're not trying to secure a website by installing security patches then what are we doing?
+So, if we're not trying to make a secure website by installing updates then what are we doing?
 
 **We are trying to achieve a reasonable level of security within our means.**
 
@@ -36,21 +36,45 @@ What you consider sensitive may be a personal choice or perhaps a legal requirem
 The fact remains that people/companies/governments put indisputably sensitive information on the internet everyday, and even when there are [massive hacks and data leaks](https://www.upguard.com/blog/biggest-data-breaches) the public rarely seems [notice or care](https://www.si.umich.edu/about-umsi/news/data-breaches-most-victims-unaware-when-shown-evidence-multiple-compromised).
 This happens for one very unsurprising reason: **people are stupid**.
 
+I am pretty stupid myself.
+Life is an endless series of mistakes and each with its own lesson.
+Don't be afraid to do something stupid (unless you're risking other people or criminal liability).
+
+## "Good Enough" Security
+In practice most Wordpress sites exist to publish rather than conceal information.
+More bluntly: hackers don't care much about your web site in particular. 
+You must secure Wordpress against the attacks that are within your adversary's budget.
+The kind of attackers that roam the web looking for vulnerable Wordpress sites have a lot of targets to choose from and they're only interested in the ones that are easy and inexpensive.
+
+> *It doesn't take much to not be the lowest hanging fruit on the vine.*
+
+If you leave a Wordpress site online without updates for years there is a high probability that it will become a porn site.
+If, on the other hand you enable [auto updates](/posts/updates) then your site will eventually develop bugs but you will most likely evade the laziest hackers.
+
+## Secure Your Backups
+The most important part of securing a Wordpress website is your backup strategy.
+Although most hosting platforms offer backups these are not sufficient to protect against the hosting account being hacked or the provider going offline.
+Plugins to backup from within Wordpress are a bad idea because any compromise of your web site exposes all the credentials to access the backups.
+
+> *Frequent backups that are isolated from production environments are cheap, easy, and non-optional.*
+
 
 ## Security Best Practices
+Each one of these points deserves its own post, but in a nutshell:
 1. Hardening
     - firewall
     - no password authentication for ssh
-    - read only file permissions for web server
+    - read only file permissions for the web server
     - fresh salts in wp-config.php
     - no phpmyadmin
     - prevent information disclosure
-    - string passwords for login
+    - strong passwords for login
     - use roles to restrict user permissions
 1. Backups
     - multiple locations
     - daily
     - keep backups for at least a week
+    - test the backups
 1. Fast disaster response
     - admin on-call 7 days, ideally 24/7 
     - use floating IP's to eliminate DNS propagation delays
@@ -59,9 +83,11 @@ This happens for one very unsurprising reason: **people are stupid**.
     - generate new random salts
     - transfer IP to new VPS
     - all within 90 minutes
+    - practice this process and test backups simultaneously
 1. Monitoring
     - uptimerobot
     - server resource usage alerts
+    - avoid the "boy who cried wolf" problem
 1. [Cloudflare](/posts/cloudflare)
     - first defense against malicious traffic
     - caching to reduce load on VPS

@@ -1,7 +1,7 @@
 ---
 
 title: "Hugo"
-date: 2022-07-05
+date: 2022-06-23
 summary: This website is built with Hugo, a very fast static site generator.
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
@@ -17,25 +17,32 @@ Although most pages can be cached in a rendered state certain functions like the
 While the front-end performance is greatly improved by caching, back-end functions like content-editing will often be painfully slow due to limited server resources and/or an excessive number of plugins.
 The dynamic nature of Wordpress also presents numerous [security risks](/posts/security) necessitating the frequent [installation of updates](/posts/updates).
 
+The performance issues of Wordpress are exactly why I prefer VPS over shared hosting providers.
+Shared hosting usually comes with some kind of impressive caching layer but clients who actually login and change content regularly are likely to experience some serious lag. 
 
-This website is made of static html and CSS.
+### Hugo
+[Hugo](https://gohugo.io) is a static site generator which compiles html from markdown files and css from a theme.
+The result is a very fast, very secure website which is easy to update, cheap to host, and which scales extremely well.
+
+Hugo is available (for Linux, Win, Mac) as a single executable file which can be downloaded and run without being installed.
+There are no dependencies.
 
 thebestwordpress.site has:
 - No php
 - No database
 - No cache
 - No memcached, no redis, no varnish
+- No Cloudflare
+- No cookies
+- No analytics
 - No search field, no contact form, no e-commerce
 - No back-end to login to
 - No users, no password, only key-based ssh authentication for deployment
 - No graphics or javascript so far and I would like to keep it that way
 
 There is very little for the server to do and minimal "attack surface" for hackers to target.
-
-### Hugo
-
-[Hugo](https://gohugo.io) is a single executable file which can be downloaded and run without being installed.
-There are no dependencies.
+I am not saying that Hugo is better than Wordpress as they are very different things.
+I am saying that Hugo is the best choice for *me* as the writer of *this* blog.
 
 How I am using Hugo:
 
@@ -64,7 +71,7 @@ After a few false starts I ended up going with the [PaperMod](https://github.com
 Having a lightweight theme with a dark/light mode toggle was my main concern.
 
 I was able to override the default colors easily:
-```shell
+```
 mkdir assets/css/extended
 cp themes/PaperMod/assets/css/core/theme_vars.css assets/css/extended/z_custom.css
 ```
@@ -86,7 +93,7 @@ Provision a Fedora 35 server (standard Lunanode template).
 The default template comes with SELinux configured.
 
 As root:
-```shell
+```
 dnf install httpd certbot mod_ssl firewalld vim lnav
 firewall-cmd --add-service=https --permanent
 firewall-cmd --add-service=http --permanent
@@ -96,12 +103,12 @@ rm /etc/httpd/conf.d/ssl.conf
 ```
 
 Get a cert from letsencrypt and setup the renewal job:
-```shell
+```
 certbot certonly -n --force-renew --email=nope --agree-tos --authenticator=standalone --pre-hook='/bin/systemctl stop httpd; sleep 2' --post-hook='/bin/systemctl start httpd' -d thebestwordpress.site -d www.thebestwordpress.site
 ```
 
 Contents of `/etc/httpd/conf.d/thebestwordpress.site.conf`:
-```apache
+```
 Listen 443 https
 SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
 SSLSessionCache         shmcb:/run/httpd/sslcache(512000)
