@@ -27,6 +27,7 @@
 	text-align: center;
 	font-family: serif;
 	font-size: 1.2em;
+  font-style: italic;
 	color: var(--tertiary);
 	border-inline-start: 3px solid var(--tertiary);
 }
