@@ -16,24 +16,23 @@ Briefly:
 - proof-of-work in place of captcha
 - pay for hosting, VPN, CDN, domain
 - anon accounts are not tied to an individual
-- instant settlement
-- no chargebacks
-- works when Rogers is down
 
 > Bitcoin is the native currency of the internet.
 
-## Defeat Spam
+### Bitcoin Payments
 Bitcoin payments are worth more than credit card payments:
 - there is no such thing as a fake Bitcoin payment
 - no third party is required to accept bitcoin
 - settlement is instantaneous
 - there are no chargebacks
 - received Bitcoin may be used immediately to pay hosting bills
+- it works when [Rogers is down](https://www.finextra.com/newsarticle/40621/interac-adds-backup-supplier-following-rogers-outage)
 
-The right way to accept Bitcoin for payment at a Wordpress/Woocommerce store is to set up BTC Pay Server.
-There is a great script to do this for you at LunaNode and the cost is only about $13/month.
+The right way to accept Bitcoin for payment at a Wordpress/Woocommerce store is to first set up BTC Pay Server.
+There is a [great tool](https://docs.btcpayserver.org/Deployment/LunaNode/) to do this for you at LunaNode for a very reasonable monthlycost.
 LunaNode also takes Bitcoin as payment.
 
+Once you have a BTCPay Server and a Wordpress site doing the [Woocommerce integration](https://docs.btcpayserver.org/WooCommerce/) is very easy.
 
 
 ## Myth and Fact
@@ -49,14 +48,29 @@ Bitcoin is becoming less complicated to use for payments every day.
 - [Blixt](https://blixtwallet.github.io/) simple, easy lightning wallet
 - [Blue Wallet](https://bluewallet.io/) a fully featured mobile wallet
 
-### Bitcoin is too hard to buy
+### Bitcoin is too hard to buy/sell
 Yes. Remember to vote.
 
-### What about RANDOM-SHITCOIN?
-Bitcoin is the innovation of cryptocurrency.
-Everything else is a copy.
+One of the best ways to get Bitcoin is to start accepting it.
+People pay you in Bitcoin and you pay for your website hosting fees in Bitcoin.
+It's a circular economy.
 
-https://twitter.com/jack/status/1425916582329528325
+Buying Bitcoin in Canada is a pain but you can use a service called [Bylls](https://bylls.com) to:
+- pay any bill with Bitcoin
+- pay off credit cards with Bitcoin
+- send a domestic wire to any Canadian bank account
+- send money via Interac e-Transfer
+- buy gift cards with Bitcoin
+
+In the US you can connect [Strike](https://strike.me/) to your bank account and buy and sell Bitcoin with almost zero fees.
+In Costa Rica and El Salvador Bitcoin is widely accepted, even by street vendors.
+
+### What about my shitcoin?
+Bitcoin was a breakthrough technology and it is unlikely that any competitor will ever reproduce the conditions of Bitcoin's early days.
+For 12 years the market has valued Bitcoin more than any other cryptocurrency and this is unlikely to change.
+
+Read more about [Bitcoin's Network Effect](https://www.lynalden.com/bitcoins-network-effect/).
+
 
 {{< tweet user="jack" id="1425916582329528325" >}}
 
