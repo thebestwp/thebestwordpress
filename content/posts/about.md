@@ -40,17 +40,6 @@ I decided that it's more difficult to do Wordpress right than it is to make an e
 Actually building The Best Wordpress Site negates the benefit of using Wordpress.
 Basically, if you're buiding a Wordpress site then you must accept that you're not trying to build the best anything.
 
-### Cookies are for monsters
-> *"thebestwordpress.site has no cookies."*
-
-I see no need for cookies on this site but they have become so ubiquitous that it's a little tricky to build a modern website without them.
-The GDPR pop-ups are so annoying that I just don't feel that cookies are justified on thebestwordpress.site.
-
-Both Wordpress and Cloudflare require the use of cookies and for me this was the deal-breaker that lead me to dump them for thebestwordpress.site.
-I don't need analytics, I have server logs.
-This site has no advertising and I have no desire to track anyone online.
-It doesn't even have any javascript--the dark mode switch and animations are pure CSS.
-
 ## About thebestwordpress.site
 > *"thebestwordpress.site is 176KB."*
 

@@ -11,9 +11,9 @@ draft: false
 
 ---
 
-Wordpress is a dynamic web site platform which retrieves content from a database and renders HTML in real-time (well, about 2 seconds actually).
-For this blog I wanted somewhere to write, with a dark/light theme switch that would be low maintenance and which could handle a substantial amount of traffic.
-The heavy nature of a dynamic, database-driven web platform was a bad fit for me because I wanted to keep things simple and cheap, I prefer to write in markdown, and I want to minimize maintenance.
+Wordpress is a dynamic web site platform which retrieves content from a database and renders HTML.
+The heavy nature of a dynamic, database-driven web platform was a bad fit for me because I wanted to keep things simple and cheap, I wanted to write posts in markdown, and I wanted to minimize maintenance.
+For this blog I just wanted a dark/light theme switch on a platform that would be low maintenance and which could handle a substantial amount of traffic and noise without having to upgrade its tiny server.
 
 I have in the distant past written a lot of HTML and CSS by hand but things have changed in 20 years.
 There are a million ways to make a website today but they all ultimately produce HTML and CSS that renders in your web browser.
@@ -63,8 +63,8 @@ The built-in local development server is meant to do this—to run alongside the
 Feature | Wordpress | Hugo
 --- | :---: | :---:
 Backend | **Y** | n
-WYSIWYG | **Y** | n
 Plugins | **Y** | n 
+WYSIWYG | **Y** | **Y**
 Themes | **Y** | **Y**
 Markdown | n | **Y**
 Fast | n | **Y**
@@ -72,7 +72,7 @@ CDN Support | n | **Y**
 
 ### Theme
 
-After a few false starts I ended up going with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) base theme and I like it quite a bit.
+After [a few false starts](https://themes.gohugo.io/) I ended up going with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) base theme and I like it quite a bit.
 Having a lightweight theme with a dark/light mode toggle was my main concern.
 
 I was able to override the default colors easily:
@@ -146,4 +146,14 @@ TransferLog logs/access_log
                 downgrade-1.0 force-response-1.0
 </VirtualHost>
 ```
+### Cookies are for monsters
+> *"thebestwordpress.site has no cookies."*
+
+I see no need for cookies on this site but they have become so ubiquitous that it's a little tricky to build a modern website without them.
+The GDPR pop-ups are so annoying that I just don't feel that cookies are justified on thebestwordpress.site.
+
+Both Wordpress and Cloudflare require the use of cookies and for me this was the deal-breaker that lead me to dump them for thebestwordpress.site.
+I don't need analytics, I have server logs.
+This site has no advertising and I have no desire to track anyone online.
+It doesn't even have any javascript--the dark mode switch and animations are pure CSS.
 
