@@ -1,25 +1,15 @@
 ---
 title: "Bitcoin"
-date: 2022-07-11T23:35:39Z
+date: 2022-07-12T16:28:26Z
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
-showtoc: true
 draft: true
 ---
 
-## What the hell does Bitcoin have to do with Wordpress?!
-
-Briefly:
-- micro payments (<1¢) in place of captcha for contact forms, search
-- proof-of-work in place of captcha
-- pay for hosting, VPN, CDN, domain
-- anon accounts are not tied to an individual
-
 > Bitcoin is the native currency of the internet.
 
-### Bitcoin Payments
 Bitcoin payments are worth more than credit card payments:
 - there is no such thing as a fake Bitcoin payment
 - no third party is required to accept bitcoin
@@ -30,12 +20,11 @@ Bitcoin payments are worth more than credit card payments:
 
 The right way to accept Bitcoin for payment at a Wordpress/Woocommerce store is to first set up BTC Pay Server.
 There is a [great tool](https://docs.btcpayserver.org/Deployment/LunaNode/) to do this for you at LunaNode for a very reasonable monthlycost.
-LunaNode also takes Bitcoin as payment.
 
 Once you have a BTCPay Server and a Wordpress site doing the [Woocommerce integration](https://docs.btcpayserver.org/WooCommerce/) is very easy.
 
 
-## Myth and Fact
+## Bitcoin Myths
 
 ### Bitcoin is destroying the planet
 As of Q1 2022 Bitcoin consumes less than 0.2% of global energy production.
@@ -69,9 +58,8 @@ In Costa Rica and El Salvador Bitcoin is widely accepted, even by street vendors
 Bitcoin was a breakthrough technology and it is unlikely that any competitor will ever reproduce the conditions of Bitcoin's early days.
 For 12 years the market has valued Bitcoin more than any other cryptocurrency and this is unlikely to change.
 
-Read more about [Bitcoin's Network Effect](https://www.lynalden.com/bitcoins-network-effect/).
+Read more about [Bitcoin's Network Effect](https://www.lynalden.com/bitcoins-network-effect/), by Lyn Alden.
 
 
 {{< tweet user="jack" id="1425916582329528325" >}}
 
-{{< tweet user="TRF_Stories" id="1541346879274979328" >}}

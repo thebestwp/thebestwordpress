@@ -29,12 +29,8 @@ menu:
   main:
     - identifier: about
       name: about
-      url: /posts/about
+      url: /detail
       weight: 10
-    - identifier: contribute
-      name: contribute
-      url: https://btcpay737660.lndyn.com/payment-requests/b56ac8bb-e25c-4f31-99c4-b47f348f0a17
-      weight: 20
 
 privacy:
   disqus:
