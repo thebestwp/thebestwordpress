@@ -42,6 +42,15 @@ I am pretty stupid myself.
 Life is an endless series of mistakes and each with its own lesson.
 Don't be afraid to do something stupid (unless you're risking other people or criminal liability).
 
+## Cost
+> Security is a bottomless money pit
+
+Wordpress websites are easy to build because 99% of the work is done by volunteers that you will never meet and whose work you will never inspect.
+If one were to independently inspect and vet every line of code then the cost benefit advantage of Wordpress would vanish.
+Wordpress is therefore only as secure as the trust you place in these unknown software developers.
+
+Key to understanding the value proposition of Wordpress is considering how important security really is to your website.
+
 ## "Good Enough" Security
 In practice most Wordpress sites exist to publish rather than conceal information.
 More bluntly: hackers don't care much about your web site in particular. 
@@ -96,15 +105,6 @@ Each one of these points deserves its own post, but in a nutshell:
     - elevated security for login/search/forms
     - block requests to xmlrpc
 1. Updates installed frequently and manually reviewed.
-
-## Cost
-> Security is a bottomless money pit
-
-Wordpress websites are easy to build because 99% of the work is done by volunteers that you will never meet and whose work you will never inspect.
-If one were to independently inspect and vet every line of code then the cost benefit advantage of Wordpress would vanish.
-Wordpress is therefore only as secure as the trust you place in these unknown software developers.
-
-Key to understanding the value proposition of Wordpress is considering how important security really is to your website.
 
 ## Common Threats and Simple Solutions
 
