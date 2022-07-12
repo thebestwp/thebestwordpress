@@ -104,12 +104,13 @@ firewall-cmd --add-service=https --permanent
 firewall-cmd --add-service=http --permanent
 firewall-cmd --reload
 chown fedora:fedora /var/www/html -R
-rm /etc/httpd/conf.d/ssl.conf
 ```
+There are a couple of httpd configuration files that will conflict with my configuration but will be replaced by updates if you delete them: for example `/etc/httpd/conf.d/ssl.conf`.
+I am just replacing the contents with comments until I find a better solution.
 
 Get a cert from letsencrypt and setup the renewal job:
 ```
-certbot certonly -n --force-renew --email=nope --agree-tos --authenticator=standalone --pre-hook='/bin/systemctl stop httpd; sleep 2' --post-hook='/bin/systemctl start httpd' -d thebestwordpress.site -d www.thebestwordpress.site
+certbot certonly -n --force-renew --email=no@pe.com --agree-tos --authenticator=standalone --pre-hook='/bin/systemctl stop httpd; sleep 2' --post-hook='/bin/systemctl start httpd' -d thebestwordpress.site -d www.thebestwordpress.site
 ```
 
 Contents of `/etc/httpd/conf.d/thebestwordpress.site.conf`:
@@ -147,7 +148,6 @@ TransferLog logs/access_log
 </VirtualHost>
 ```
 ### Cookies are for monsters
-> *"thebestwordpress.site has no cookies."*
 
 I see no need for cookies on this site but they have become so ubiquitous that it's a little tricky to build a modern website without them.
 The GDPR pop-ups are so annoying that I just don't feel that cookies are justified on thebestwordpress.site.
