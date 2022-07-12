@@ -13,7 +13,7 @@ Bitcoin payments are worth more than credit card payments:
 - no third party is required to accept bitcoin
 - settlement is instantaneous
 - there are no chargebacks
-- received Bitcoin may be used immediately to [pay hosting bills](/detail/contribute)
+- received Bitcoin may be used immediately to [pay hosting bills](/z_about/contribute)
 - it works when [Rogers is down](https://www.finextra.com/newsarticle/40621/interac-adds-backup-supplier-following-rogers-outage)
 
 The right way to accept Bitcoin for payment at a Wordpress/Woocommerce store is to first set up BTC Pay Server.
