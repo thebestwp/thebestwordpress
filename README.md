@@ -1,8 +1,8 @@
 ## thebestwordpress.site
 
-This repository hosts the source code of [thebestwordpress.site](https://thebestwordpress.site/posts/about/).
+This repository hosts the source code of [thebestwordpress.site](https://thebestwordpress.site).
 
-There is a post about [how the site and server are built](https://thebestwordpress.site/posts/hugo/).
+There is a post about [how the site and server are built](https://thebestwordpress.site/z_about/hugo/).
 
 It is a very basic static site made with [hugo](https://gohugo.io).
 This is mainly an exploratory project.
