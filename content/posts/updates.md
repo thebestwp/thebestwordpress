@@ -8,25 +8,6 @@ editPost:
 summary: Installing updates automatically is better than not installing updates at all but lazy and reckless compared to every alternative approach.
 draft: false
 ---
-The first thing to consider when updating Wordpress is *what* you are installing.
-
-## Code
-Every Wordpress site is a collection of different software packages, at the very least:
-- core
-- plugins
-- theme
-- php
-- web server (usually apache httpd)
-- mysql (or mariadb)
-- operating system (linux or gtfo)
-
-Most Wordpress sites also have some custom code and possibly some additional frameworks like node.js or CSS pre-processors.
-Most servers are also in close proximity to many other websites/servers and a ton of network equipment, each of which can themselves become hostile to your website.
-
-So, there are a lot of things to update.
-
-## Why we update
-The reason for updating is covered by [Security](/posts/security).
 
 ## Automatic Updates
 Installing updates automatically is better than not installing updates at all but lazy and reckless compared to every alternative approach.
@@ -60,4 +41,24 @@ Fortunately the Wordpress developers continue to release security patches for th
 ## TODO
 - Php Version
 - Paid Plugins
+- Manual updates
 
+## Draft
+The first thing to consider when updating Wordpress is *what* you are installing.
+
+## Code
+Every Wordpress site is a collection of different software packages, at the very least:
+
+ | 
+---|---|---
+core | plugins | theme 
+php | web server | db server
+OS | firewall
+
+Most Wordpress sites also have some custom code and possibly some additional frameworks like node.js or CSS pre-processors.
+Most servers are also in close proximity to many other websites/servers and a ton of network equipment, each of which can themselves become hostile to your website.
+
+So, there are a lot of things to update.
+
+## Why we update
+The reason for updating is covered by [Security](/posts/security).
