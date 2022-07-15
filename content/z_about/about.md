@@ -6,7 +6,6 @@ editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true # to append file path to Edit link
-weight: 1
 draft: false
 ---
 > *"thebestwordpress.site is not The Best Wordpress Site"*
