@@ -16,6 +16,8 @@ Bitcoin payments are worth more than credit card payments:
 - received Bitcoin may be used immediately to [pay hosting bills](/z_about/contribute)
 - it works when [Rogers is down](https://www.finextra.com/newsarticle/40621/interac-adds-backup-supplier-following-rogers-outage)
 
+{{< tweet user="jack" id="1425916582329528325" >}}
+
 The right way to accept Bitcoin for payment at a Wordpress/Woocommerce store is to first set up BTC Pay Server.
 There is a [great tool](https://docs.btcpayserver.org/Deployment/LunaNode/) to do this for you at LunaNode for a very reasonable monthly cost.
 
@@ -63,5 +65,5 @@ Since 2009 the world has valued Bitcoin more than any other cryptocurrency and t
 Read more about [Bitcoin's Network Effect](https://www.lynalden.com/bitcoins-network-effect/), by Lyn Alden.
 
 
-{{< tweet user="jack" id="1425916582329528325" >}}
+{{< tweet user="LynAldenContact" id="1548029992063291401" >}}
 
