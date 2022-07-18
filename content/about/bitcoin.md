@@ -13,7 +13,7 @@ Bitcoin payments are worth more than credit card payments:
 - no third party is required to accept bitcoin
 - settlement is instantaneous
 - there are no chargebacks
-- received Bitcoin may be used immediately to [pay hosting bills](/z_about/contribute)
+- received Bitcoin may be used immediately to [pay hosting bills](/about/contribute)
 - it works when [Rogers is down](https://www.finextra.com/newsarticle/40621/interac-adds-backup-supplier-following-rogers-outage)
 
 {{< tweet user="jack" id="1425916582329528325" >}}

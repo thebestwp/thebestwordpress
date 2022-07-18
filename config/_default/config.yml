@@ -27,7 +27,7 @@ menu:
   main:
     - identifier: about
       name: about
-      url: /z_about
+      url: /about
       weight: 10
 
 privacy:

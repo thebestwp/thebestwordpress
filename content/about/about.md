@@ -44,7 +44,7 @@ Basically, if you're buiding a Wordpress site then you must accept that you're n
 After realizing that Wordpress was the wrong tool for the job I decided to try out a static site generator written in my favourite programming language, go.
 
 [Hugo](https://gohugo.io) is a static site generator which means that this whole site is just a bunch of pre-rendered content.
-I have written more about [how thebestwordpress.site is built.](/z_about/hugo)
+I have written more about [how thebestwordpress.site is built.](/about/hugo)
 
 ## About me
 I have been working in software for about 24 years now, and I have worn many different hats.

@@ -8,7 +8,7 @@ editPost:
 draft: false
 ---
 
-This website runs on a VPS that is paid for with [Bitcoin](/z_about/bitcoin).
+This website runs on a VPS that is paid for with [Bitcoin](/about/bitcoin).
 The domain thebestwordpress.site is paid for with Bitcoin.
 The BTCPay Server which is used to process Bitcoin payments is paid for with Bitcoin.
 The VPN I use to edit this site (just to screw with the algorithm) is paid for with Bitcoin.
