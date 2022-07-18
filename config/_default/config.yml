@@ -8,6 +8,8 @@ params:
   defaultTheme: dark
   ShowCodeCopyButtons: true
   ShowReadingTime: true
+  mainSections:
+    - posts
   assets:
     disableHLJS: true
   homeInfoParams:
