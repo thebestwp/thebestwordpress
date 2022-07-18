@@ -1,2 +1,3 @@
-
+title: STAGING
 baseURL: https://staging.thebestwordpress.site:24012
+buildDrafts: true
