@@ -8,13 +8,17 @@ params:
   defaultTheme: dark
   ShowCodeCopyButtons: true
   ShowReadingTime: true
+  ShowWordCount: true
   mainSections:
     - posts
   assets:
     disableHLJS: true
   homeInfoParams:
     Title: The Best Wordpress Site
-    Content: "**Wordpress is extremely popular and deeply flawed.** What are the most serious issues a Wordpress site faces today and how do we make the site run as well as possible without excessive complexity or cost? In this blog I will try to answer that question in a series of frequently edited, poorly organized, and ultimately long-abandoned posts."
+    Content: "**Wordpress is free, popular, and deeply flawed.**
+    In a perfect world we'd all be writing web pages using a simplified descendant of HTML but in this world we're all using Wordpress.
+    How can a sysadmin run this aging and inefficient website software to provide the best possible user experience on the inexpensive infrastrucuture that our clients can afford?
+    I have been trying to answer that question since 2015, and this blog is a record of my findings."
 
   socialIcons: # optional
     - name: "bitcoin"
