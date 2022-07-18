@@ -5,7 +5,7 @@ date: 2022-06-23
 summary: This website is built with Hugo, a very fast static site generator.
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
-    Text: "Suggest Changes"
+    Text: "edit"
     appendFilePath: true # to append file path to Edit link
 draft: false
 

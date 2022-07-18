@@ -3,7 +3,7 @@ title: "Updates"
 date: 2022-07-10T15:41:29Z
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
-    Text: "Suggest Changes"
+    Text: "edit"
     appendFilePath: true # to append file path to Edit link
 summary: Installing updates automatically is better than not installing updates at all but lazy and reckless compared to every alternative approach.
 draft: false

@@ -3,7 +3,7 @@ title: "Bitcoin"
 date: 2022-07-12T16:28:26Z
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
-    Text: "Suggest Changes"
+    Text: "edit"
     appendFilePath: true # to append file path to Edit link
 draft: false
 ---

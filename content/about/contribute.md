@@ -3,7 +3,7 @@ title: "Contribute"
 date: 2022-07-11T23:35:39Z
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
-    Text: "Suggest Changes"
+    Text: "edit"
     appendFilePath: true # to append file path to Edit link
 draft: false
 ---

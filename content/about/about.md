@@ -4,7 +4,7 @@ date: 2022-06-22
 summary: It was about 24 hours before I realized that Wordpress was the wrong choice for this project...
 editPost:
     URL: "https://github.com/thebestwp/thebestwordpress/tree/main/content"
-    Text: "Suggest Changes"
+    Text: "edit"
     appendFilePath: true # to append file path to Edit link
 draft: false
 ---
