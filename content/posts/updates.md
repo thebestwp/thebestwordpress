@@ -9,10 +9,16 @@ summary: Installing updates automatically is better than not installing updates 
 draft: false
 ---
 
+If you neglect to update Wordpress then your site will get hacked.
+Whenever a new vulnerability is publicly disclosed the attacks start immediately.
+The constant slew of updates released are patches against *known* vulnerabilities, but the ones that have yet to be publicly disclosed are still in there.
+
+> All software has vulnerabilities.
+
 ## Automatic Updates
 Installing updates automatically is better than not installing updates at all but lazy and reckless compared to every alternative approach.
 
-The best ways to install open source software updates ranked by difficulty:
+The best ways to install open source software updates:
 1. Read every line of code.
 1. Read all related documentation/discussion about an update.
 1. Manually install and test updates individually in a staging environment.

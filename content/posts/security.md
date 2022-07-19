@@ -16,17 +16,9 @@ There is no such thing as a *secure website* on the internet.
 Every website needs to *be secured* from plausible threats **without over-spending** on security.
 The degree to which each website should be secured must be individually assessed.
 
-> All software has vulnerabilities.
-
-The constant slew of updates released are patches against *known* vulnerabilities, but the ones that have yet to be publicly disclosed are still in there.
-
-Knowing that all software is vulnerable to hacking, and adding the fact that the internet is an extremely hostile environment, there is only one answer to the question of whether your website is secure: no.
-Anyone who tells you that anything on the internet is secure is either lying or incompetent. 
-
-So, if we're not trying to make a secure website by installing updates then what are we doing?
+So, if we're not trying to make a secure website then what are we doing?
 
 **We are trying to achieve a reasonable level of security within our means.**
-
 
 ## The Golden Rule
 The real key with securing a Wordpress website is to follow this one golden rule:
@@ -34,44 +26,27 @@ The real key with securing a Wordpress website is to follow this one golden rule
 > Don't put sensitive information on the internet.
 
 What you consider sensitive may be a personal choice or perhaps a legal requirement in your jurisdiction, but the rule stands--if you absolutely must prevent some information from becoming public then do not put that information on an internet-connected device.
+Under no circumstances should Wordpress be used to store sensitive information.
 
 The fact remains that people/companies/governments put indisputably sensitive information on the internet everyday, and even when there are [massive hacks and data leaks](https://www.upguard.com/blog/biggest-data-breaches) the public rarely seems [notice or care](https://www.si.umich.edu/about-umsi/news/data-breaches-most-victims-unaware-when-shown-evidence-multiple-compromised).
 This happens for one very unsurprising reason: **people are stupid**.
 
 I am pretty stupid myself.
 Life is an endless series of mistakes and each with its own lesson.
-Don't be afraid to do something stupid (unless you're risking other people or criminal liability).
-
-## Cost
-> Security is a bottomless money pit
-
-Wordpress websites are easy to build because 99% of the work is done by volunteers that you will never meet and whose work you will never inspect.
-If one were to independently inspect and vet every line of code then the cost benefit advantage of Wordpress would vanish.
-Wordpress is therefore only as secure as the trust you place in these unknown software developers.
-
-Key to understanding the value proposition of Wordpress is considering how important security really is to your website.
 
 ## "Good Enough" Security
 In practice most Wordpress sites exist to publish rather than conceal information.
 More bluntly: hackers don't care much about your web site in particular. 
-You must secure Wordpress against the attacks that are within your adversary's budget.
 The kind of attackers that roam the web looking for vulnerable Wordpress sites have a lot of targets to choose from and they're only interested in the ones that are easy and inexpensive.
+You must secure Wordpress against the attacks that are within your adversary's budget.
 
 > *It doesn't take much to not be the lowest hanging fruit on the vine.*
 
 If you leave a Wordpress site online without updates for years there is a high probability that it will become a porn site.
 If, on the other hand you enable [auto updates](/posts/updates) then your site will eventually develop bugs but you will most likely evade the laziest hackers.
 
-## Secure Your Backups
-The most important part of securing a Wordpress website is your backup strategy.
-Although most hosting platforms offer backups these are not sufficient to protect against the hosting account being hacked or the provider going offline.
-Plugins to backup from within Wordpress are a bad idea because any compromise of your web site exposes all the credentials to access the backups.
-
-> *Frequent backups that are isolated from production environments are cheap, easy, and non-optional.*
-
-
 ## Security Best Practices
-Each one of these points deserves its own post, but in a nutshell:
+[I am working on a post for each one of these topics.]
 1. Hardening
     - firewall
     - no password authentication for ssh
@@ -81,12 +56,12 @@ Each one of these points deserves its own post, but in a nutshell:
     - prevent information disclosure
     - strong passwords for login
     - use roles to restrict user permissions
-1. Backups
+1. [Backups](/posts/backups)
     - multiple locations
     - daily
     - keep backups for at least a week
     - test the backups
-1. Fast disaster response
+1. Response
     - admin on-call 7 days, ideally 24/7 
     - use floating IP's to eliminate DNS propagation delays
     - provision fresh VPS 
@@ -104,7 +79,16 @@ Each one of these points deserves its own post, but in a nutshell:
     - caching to reduce load on VPS
     - elevated security for login/search/forms
     - block requests to xmlrpc
-1. Updates installed frequently and manually reviewed.
+1. [Updates](/posts/updates) installed frequently and manually reviewed.
+
+## Cost
+> Security is a bottomless money pit
+
+Wordpress websites are easy to build because 99% of the work is done by volunteers that you will never meet and whose work you will never inspect.
+If one were to independently inspect and vet every line of code then the cost benefit advantage of Wordpress would vanish.
+Wordpress is therefore only as secure as the trust you place in these unknown software developers.
+
+Key to understanding the value proposition of Wordpress is considering how important security really is to your website.
 
 ## Common Threats and Simple Solutions
 
