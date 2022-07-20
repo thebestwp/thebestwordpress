@@ -39,10 +39,11 @@ thebestwordpress.site has:
 - No cookies
 - No analytics
 - No search field, no contact form, no e-commerce
-- No back-end to login to
+- No back-end, no login forms
 - No users, no password, only key-based ssh authentication for deployment
-- No graphics or javascript so far and I would like to keep it that way
+- No graphics so far and I would like to keep it that way
 
+[There is a little javascript for the dark/light switch and the scroll to top button.]
 There is very little for the server to do and minimal "attack surface" for hackers to target.
 I am not saying that Hugo is better than Wordpress as they are very different things.
 
