@@ -22,7 +22,7 @@ params:
 
   socialIcons: # optional
     - name: "bitcoin"
-      url: "https://btcpay737660.lndyn.com/payment-requests/b56ac8bb-e25c-4f31-99c4-b47f348f0a17"
+      url: "https://btcpay737660.lndyn.com/payment-requests/1cdd7567-a8f6-412e-be06-4d803579dc1e"
     - name: "github"
       url: "https://github.com/thebestwp/thebestwordpress"
     - name: "soundcloud"

@@ -17,5 +17,5 @@ I have two email accounts and two phone numbers paid for with Bitcoin.
 
 > Bitcoin is the native currency of the internet.
 
-You can [contribute](https://btcpay737660.lndyn.com/payment-requests/b56ac8bb-e25c-4f31-99c4-b47f348f0a17) to the monthly cost of running this site with Bitcoin.
+You can [contribute](https://btcpay737660.lndyn.com/payment-requests/1cdd7567-a8f6-412e-be06-4d803579dc1e) to the monthly cost of running this site with Bitcoin.
 
