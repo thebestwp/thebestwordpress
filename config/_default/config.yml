@@ -21,8 +21,6 @@ params:
     I have been trying to answer that question since 2015, and this blog is a record of my findings."
 
   socialIcons: # optional
-    - name: "bitcoin"
-      url: "https://btcpay737660.lndyn.com/payment-requests/1cdd7567-a8f6-412e-be06-4d803579dc1e"
     - name: "github"
       url: "https://github.com/thebestwp/thebestwordpress"
     - name: "soundcloud"
